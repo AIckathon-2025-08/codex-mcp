@@ -1,0 +1,17 @@
+development:
+  adapter: sqlite3
+  database: <%= ENV['CODEX_DB_PATH'] || File.join(Dir.home, '.codex', 'state.sqlite3') %>
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: sqlite3
+  database: <%= ENV['CODEX_DB_PATH'] || File.join(Dir.home, '.codex', 'state.sqlite3') %>
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: sqlite3
+  database: <%= ENV['CODEX_DB_PATH'] || File.join(Dir.home, '.codex', 'state_test.sqlite3') %>
+  pool: 5
+  timeout: 5000

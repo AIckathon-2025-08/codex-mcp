@@ -1,0 +1,30 @@
+# SQLite databases
+*.sqlite3
+*.sqlite3-*
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# Environment
+.env
+.env.local
+
+# Ruby
+*.gem
+*.rbc
+.byebug_history
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp
+tmp/
