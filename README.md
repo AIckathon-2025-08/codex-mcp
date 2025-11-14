@@ -1,3 +1,6 @@
+!! Still in progress MCP is usable but  AI not alway undersant that is should use MCP
+I should fix it 
+
 # 🎮 Codex MCP
 
 > Transform boring development tasks into engaging quests with AI-powered task breakdown and XP progression
