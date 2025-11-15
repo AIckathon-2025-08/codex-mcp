@@ -17,9 +17,10 @@ gem 'oj', '~> 3.16'
 # Utilities
 gem 'rake', '~> 13.0'
 
-group :development do
+group :development, :test do
   gem 'pry', '~> 0.14'
   gem 'rerun', '~> 0.14'
+  gem 'rspec', '~> 3.12'
 end
 
 # Note: No AI gem needed - Claude (the agent) does all AI thinking

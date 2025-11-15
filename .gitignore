@@ -25,6 +25,10 @@ vendor/bundle/
 .vscode/
 .idea/
 *.swp
+.claude/
 
 # Temp
 tmp/
+
+# Test examples
+spec/examples.txt
